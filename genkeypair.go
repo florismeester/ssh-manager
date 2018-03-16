@@ -1,7 +1,7 @@
 package main
 
 /* ssh keypair generation, numer of bits can be set in config file.
-   Output can be set to file, rest or both.
+   Output can be set to file, JSON or both.
    @author Floris Meester floris@rawpacket.com */
 
 import ( 

@@ -22,7 +22,7 @@ func genpw() string {
     	_, err := rand.Read(randstr)
 	printerr(err)
 
-	// fill the passwd array
+	// stuff it in  the passwd array
 	for ch := range pw {
       	 	random := uint8(randstr[ch])
         	randch := random % uint8(len(encodestr))

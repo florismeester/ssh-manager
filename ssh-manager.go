@@ -51,7 +51,6 @@ func main(){
                 log.Fatal("Can't find configuration file ", *conf)
         }
         decoder := json.NewDecoder(file)
-        // configuration:= Configuration{}
         err = decoder.Decode(&configuration)
         if err != nil {
                 fmt.Println("error opening configuration:", err)
