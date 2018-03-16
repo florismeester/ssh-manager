@@ -1,6 +1,6 @@
 
 
-<h1>SSH encrypted key generator</h1>    
+<h1>SSH keypair generator through HTTP/HTTPS</h1>    
  
 
 HTTP/HTTPS service for generating public/private RSA keypairs. Public key is in authorized_keys file format.  
