@@ -25,7 +25,7 @@ Configuration:
 
 
 Usage:  
-	 Start the service with: ./ssh-manager & or create a systemd service unit  
+	 Start the service with: "./ssh-manager &"  or create a systemd service unit |-)  
 	 curl  https://localhost:443/keygen/alice  
 
 Output:   
