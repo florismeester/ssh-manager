@@ -20,7 +20,7 @@ Configuration:
         "tls": true			--> this *should* be true  
         "keypath": "key.pem"	--> TLS Key file  
         "certpath": "cert.pem"	--> TLS Cert file  
-        "pwlen": 14			--> passwphrase length  
+        "pwlen": 14			--> passphrase length  
 
 
 
