@@ -15,12 +15,12 @@ Configuration:
         "file": true		--> output to local files (will output <username>-id_rsa.pub and <username>-id_rsa)  
         "json": true		--> output to JSON through HTTP/HTTPS, obviously you should use the latter.When false only the generated passphrase is returned.  
         "bits": 2048		--> number of bits  
-        "listen": ":443"	--> ip:port to listen on  
-        "path": "keyfiles"	--> path to save keypairs  
-        "tls": true		--> this *should* be true  
+        "listen": ":443"		--> ip:port to listen on  
+        "path": "keyfiles"		--> path to save keypairs  
+        "tls": true			--> this *should* be true  
         "keypath": "key.pem"	--> TLS Key file  
         "certpath": "cert.pem"	--> TLS Cert file  
-        "pwlen": 14		--> passwphrase length  
+        "pwlen": 14			--> passwphrase length  
 
 
 
